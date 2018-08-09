@@ -3,6 +3,7 @@ import React, {
 } from 'react';
 
 import PokeList from './PokeList.js';
+import DetailView from './DetailView';
 import PokeCell from './PokeCell.js'
 
 import './styles/App.css';
@@ -18,6 +19,7 @@ class App extends Component {
     return (
       <div className="App">
       	<PokeList />
+      	<DetailView />
 
       </div>
     );
